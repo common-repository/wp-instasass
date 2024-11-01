@@ -1,0 +1,85 @@
+[
+    {
+        "name": "fguillot/json-rpc",
+        "version": "v1.2.4",
+        "version_normalized": "1.2.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fguillot/JsonRPC.git",
+            "reference": "ea2720b13e986bbf23e832b135c84c91ead7259f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fguillot/JsonRPC/zipball/ea2720b13e986bbf23e832b135c84c91ead7259f",
+            "reference": "ea2720b13e986bbf23e832b135c84c91ead7259f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.8.*"
+        },
+        "time": "2017-01-12 21:31:30",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "JsonRPC": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Frédéric Guillot"
+            }
+        ],
+        "description": "Simple Json-RPC client/server library that just works",
+        "homepage": "https://github.com/fguillot/JsonRPC"
+    },
+    {
+        "name": "fixcms/instasass",
+        "version": "v1.0.10",
+        "version_normalized": "1.0.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/siafixcms/instasass.git",
+            "reference": "3b41c3627b331eeb4a2a4637302cb14436bc6080"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/siafixcms/instasass/zipball/3b41c3627b331eeb4a2a4637302cb14436bc6080",
+            "reference": "3b41c3627b331eeb4a2a4637302cb14436bc6080",
+            "shasum": ""
+        },
+        "require": {
+            "fguillot/json-rpc": "1.2.*",
+            "php": "^5.5 || ^7.0"
+        },
+        "time": "2017-08-02 17:55:01",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Instasass": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Valdis Līcis",
+                "email": "valdis.licis@gmail.com"
+            }
+        ],
+        "description": "Have your SASS loaded from a third party address cashed by a CDN and compiled all using one line of PHP code!",
+        "homepage": "https://instasass.lc.lv",
+        "keywords": [
+            "cdn",
+            "compile",
+            "sass"
+        ]
+    }
+]
